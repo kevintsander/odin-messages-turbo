@@ -1,0 +1,8 @@
+<%= tag.article class: "message", id: dom_id(message) do %>
+  <div class="message-header">
+    <p><%= message.user.email %></p>
+  </div>
+  <div class="message-body">
+    <p><%= message.body %></p>
+  </div>
+<% end %>
